@@ -66,6 +66,7 @@ Then add the following text to your file (you may need to adjust the path for yo
     [Service]
     Type=idle
     ExecStart=/usr/bin/python /home/pi/github/envirophat-initialstate/envirophat-initialstate.py
+    Restart=always
     
     [Install]
     WantedBy=multi-user.target
