@@ -26,7 +26,6 @@ Simply clone this script by running:
 
 You'll need to make some changes first, specifically inserting your Access Key (found via Initial State), as well as optionally setting the bucket name and key in the following place:
 
-    ### Replace CHANNEL_KEY with that of your channel
     streamer = Streamer(bucket_name="Your Bucket Name", bucket_key="bucket_key", access_key="your_access_key")
 
 You can use your preferred text editor, but Nano works just fine:
